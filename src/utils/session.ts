@@ -17,6 +17,7 @@ const SESSION_ERROR_PATTERNS = [
   'invalid session',
   'session invalid',
   'process exited with code',
+  'no conversation found',
 ] as const;
 
 const SESSION_ERROR_COMPOUND_PATTERNS = [
